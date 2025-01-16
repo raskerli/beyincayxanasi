@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Script</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="bg-light py-3 shadow-sm">
+        <nav class="navbar container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">Beyin Çayxanası</a>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <div id="video-content" class="p-4 bg-white shadow rounded">
+            <!-- Dynamic content will be loaded here -->
+        </div>
+    </main>
+
+    <footer class="text-center bg-light py-3 mt-5 shadow-sm">
+        <p>&copy; 2025 Beyin Çayxanası. Bütün hüquqlar qorunur.</p>
+    </footer>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const videoId = urlParams.get('id');
+
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                const video = data.videos.find(v => v.id == videoId);
+                if (video) {
+                    document.querySelector('#video-content').innerHTML = `
+                        <iframe src="${video.url}" frameborder="0" allowfullscreen class="w-100 mb-4 rounded" style="height: 400px;"></iframe>
+                        <h1 class="mb-3">${video.title}</h1>
+                        <p>${video.script}</p>
+                    `;
+                } else {
+                    document.querySelector('#video-content').innerHTML = '<p>Video tapılmadı.</p>';
+                }
+            });
+    </script>
+</body>
+
+</html>

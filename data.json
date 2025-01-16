@@ -1,0 +1,18 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "Video başlığı 1",
+      "url": "https://www.youtube.com/embed/example1",
+      "script": "Bu videonun mətni 1"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Kanalın Hekayəsi",
+      "description": "İlham, bilik və inkişaf üçün yaradılmış bir layihə.",
+      "content": "Hər kəsə salam! Bu ilk blog yazımda Beyin Çayxanası layihəsini yaratma qərarımın necə yarandığını sizinlə bölüşmək istəyirəm. Əvvəla, mən uzun müddətdir ki, Nash Daily, Barış Özcan, Asap Science kimi kanalları izləyirəm və onların necə faydalı və ilhamverici olduğunu görmüşəm. Onların verdiyi biliklər, həyat hekayələri və təqdimat tərzi məni dərindən təsirləndirdi. Bunun nəticəsində belə bir sual beynimdə formalaşdı: Niyə Azərbaycanda da buna bənzər bir kanal olmasın? Azərbaycanda qlobal mövzuları, texnologiyanı, elmi və özünüinkişafı əhatə edən maarifləndirici kanalların çatışmazlığı olduğunu hiss etdim. Bu boşluğu doldurmaq və insanlara faydalı olmaq istəyim Beyin Çayxanasını yaratmaqda əsas səbəb oldu. Ancaq bu layihənin təkcə başqalarına fayda vermək məqsədi daşımadığını qeyd etməliyəm. Özümü inkişaf etdirmək, öyrəndiklərimi paylaşaraq biliklərimi gücləndirmək və eyni zamanda maraqlı mövzularda daha dərindən düşünmək üçün də bu yola çıxdım. Çünki biliklərimizi başqalarına izah etdikcə özümüz də daha çox öyrənirik. Bu layihə ilə istəyim təkcə mövzu anlatmaq deyil, həm də insanları yeni şeylər öyrənməyə və özlərini inkişaf etdirməyə həvəsləndirməkdir. Əgər Beyin Çayxanası bir nəfəri belə düşündürə və ya öyrədə bilsə, bu, mənim üçün ən böyük uğur olacaq. Əgər siz də bu yolun bir hissəsi olmaq istəyirsinizsə, mənimlə birlikdə öyrənib paylaşmağa davam edin. Bu, bizim birlikdə həm əylənib, həm də inkişaf edəcəyimiz bir macəra olacaq!"
+    }
+  ]
+}

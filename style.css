@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  margin: 0 10px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Hero Section */
+#hero {
+  background-color: #007bff;
+  color: #fff;
+  padding: 50px 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+/* Section Headings */
+section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Videos Section */
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.video-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex: 1 1 calc(50% - 20px);
+  text-align: center;
+}
+
+.video-card iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+}
+
+.video-card p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Blogs Section */
+.blog-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blog-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1 1 calc(50% - 20px);
+}
+
+.blog-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.blog-card p {
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.blog-card a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.blog-card a:hover {
+  color: #0056b3;
+}
+
+/* Resources Section */
+#resources ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#resources .list-group-item {
+  border: none;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#resources .list-group-item a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+#resources .list-group-item a:hover {
+  color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 10px;
+  font-size: 0.9rem;
+  text-align: center;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
